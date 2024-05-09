@@ -1,13 +1,55 @@
 :root {
-    --primary-color: #0606f6;
-    --secondary-color: #aaaaaa;
-    --tertiary-color: #030303;
+    --primary-color: #f4ead9;
+    --secondary-color: #2a4b7e;
+}
+
+body{
+    padding: 0;
+    margin: 0;
 }
 
 nav.navbar {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 a.nav-link {
+    color: var(--primary-color);
+}
+
+.topnav-image{
+    text-align: center;
+}
+
+.topnav-image img{
+    width:350px; 
+    height:150px; 
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar-toggler {
+    border-color: var(--primary-color);
+}
+
+.container-fluid {
+    background-color: var(--primary-color);
+    padding: 0;
+}
+
+button.btn {
+    background-color: var(--primary-color);
     color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    /* .abs-center-x {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align:center;
+    } */
+    /* #title {
+        padding: 13px
+    } */
 }
