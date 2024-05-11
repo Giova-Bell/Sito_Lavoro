@@ -1,0 +1,33 @@
+nav.navbar {
+    background-color: var(--secondary-color);
+}
+
+a.nav-link {
+    color: var(--primary-color);
+}
+
+.topnav-image{
+    text-align: center;
+}
+
+.topnav-image img{
+    width:350px; 
+    height:150px; 
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar-toggler {
+    border-color: var(--primary-color);
+}
+
+.navbar-container {
+    background-color: var(--primary-color);
+    padding: 0;
+}
+
+.navbar-button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 10px;
+}
