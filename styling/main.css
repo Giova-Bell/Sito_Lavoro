@@ -10,6 +10,11 @@ body{
     margin: 0;
 }
 
+.col-4 { color: var(--secondary-color); font-size: 48px; text-align: center; }
+/* .col-4:nth-child(3n+1) { background: #c69; }
+.col-4:nth-child(3n+2) { background: #9c6; }
+.col-4:nth-child(3n+3) { background: #69c; } */
+
 .thumbnail {
     height: 100%;
 }
