@@ -7,6 +7,7 @@
 body{
     scrollbar-width: none;
     font-family: 'Gotham';
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
 }
@@ -37,14 +38,20 @@ body{
 /* Ingredeints List */
 #ingredients_container {
     position: relative;
+    width: 100%;
+}
+
+.ing-el {
+    box-shadow: 1px 1px;
 }
 
 .arrow {
-    position: absolute;
     top: 0;
+    width: 5%;
+    z-index: 1;
     height: 100%;
     display: flex;
-
+    position: absolute;
 }
 
 .arrow-left {
@@ -58,7 +65,7 @@ body{
 }
 
 .arrow img {
-    width: 30%;
+    width: 100%;
     height: 100%;
 }
 
@@ -75,8 +82,9 @@ body{
 /* Phone Style */
 @media screen and (max-width: 26cm) {
     #ingredients {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap !important;
+        /* align-items: center; */
     }
 
     .arrow { display: none; }
